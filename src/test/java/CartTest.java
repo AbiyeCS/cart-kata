@@ -3,19 +3,19 @@ import org.example.Discount;
 import org.example.Model.Item;
 import org.example.Pricing;
 import org.example.Util.JsonUtil;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CartTest {
     private Cart cart;
     private Pricing pricing;
     HashMap<String, Discount> discounts = new HashMap<>();
 
-    @Before
+    @BeforeEach
     public void setUp(){
         discounts = new HashMap<>();
         discounts.put("A", new Discount(3, 140));
