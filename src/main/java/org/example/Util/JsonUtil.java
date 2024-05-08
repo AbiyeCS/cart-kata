@@ -7,7 +7,7 @@ import java.nio.file.Path;
 
 public class JsonUtil {
     public static final Path JSON_FILE_ROOT =
-            Path.of("exercise1/src/test/resources");
+            Path.of("src/test/resources");
 
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
