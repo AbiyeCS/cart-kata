@@ -22,6 +22,11 @@ Build Project
 mvn clean compile
 ```
 
+Run test
+```
+mvn test
+```
+
 Run Main method
 ```
 mvn exec:java 
