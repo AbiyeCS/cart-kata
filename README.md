@@ -32,4 +32,4 @@ Run Main method
 mvn exec:java 
 ```
 
-Which will then output £274 in the terminal you ran the program from
+Which will then output £284 in the terminal you ran the program from
