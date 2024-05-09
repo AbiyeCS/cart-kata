@@ -12,7 +12,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) throws NoFileFoundException {
         HashMap<String, Discount> discounts = new HashMap<>();
-        discounts.put("A", new Discount(3, 130));
+        discounts.put("A", new Discount(3, 140));
         discounts.put("B", new Discount(2, 60));
         Pricing pricing = new Pricing(discounts);
         Cart cart = new Cart(pricing);
